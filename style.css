@@ -1,0 +1,427 @@
+.desk-top {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #050066;
+}
+
+.desk-top .container {
+  display: flex;
+  flex-direction: column;
+  min-width: 1200px;
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.desk-top .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desk-top .main {
+  min-width: 600px;
+  max-width: 800px;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.desk-top .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .img {
+  position: relative;
+  width: 47px;
+  height: 37.35px;
+  margin-bottom: -0.18px;
+  animation: pulse 1.5s infinite;
+}
+
+.desk-top .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-primary-font-family);
+  font-weight: var(--h-primary-font-weight);
+  color: transparent;
+  font-size: var(--h-primary-font-size);
+  letter-spacing: var(--h-primary-letter-spacing);
+  line-height: var(--h-primary-line-height);
+  font-style: var(--h-primary-font-style);
+}
+
+.desk-top .link {
+  padding: 8px 0px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 255, 147.9), rgb(191.74, 255, 11.69) 85.03%) 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -3px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-bold-font-family);
+  font-weight: var(--h-secondary-bold-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-bold-font-size);
+  letter-spacing: var(--h-secondary-bold-letter-spacing);
+  line-height: var(--h-secondary-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--h-secondary-bold-font-style);
+}
+
+.desk-top .img-2 {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.desk-top .section {
+  display: flex;
+  height: 700px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.desk-top .main-2 {
+  flex-direction: column;
+  width: 840px;
+  height: 632px;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  position: relative;
+}
+
+.desk-top .primary-title {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .primary-title:hover {
+  transform: rotate(360deg);
+  transition: transform 0.6s ease-in-out;
+}
+
+.desk-top .p {
+  position: relative;
+  width: 820px;
+  height: 321px;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 88px;
+  letter-spacing: 0.35px;
+  line-height: normal;
+}
+
+.desk-top .secondary-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desk-top .text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-bold-font-family);
+  font-weight: var(--h-secondary-bold-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-bold-font-size);
+  letter-spacing: var(--h-secondary-bold-letter-spacing);
+  line-height: var(--h-secondary-bold-line-height);
+  font-style: var(--h-secondary-bold-font-style);
+}
+
+.desk-top .description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desk-top .text-wrapper-3 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-font-family);
+  font-weight: var(--h-secondary-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-font-size);
+  letter-spacing: var(--h-secondary-letter-spacing);
+  line-height: var(--h-secondary-line-height);
+  font-style: var(--h-secondary-font-style);
+}
+
+.desk-top .button-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -18px;
+}
+
+.desk-top .explore {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 80px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 15px;
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 255, 147.9), rgb(191.74, 255, 11.69) 85.03%) 1;
+}
+
+.desk-top .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -2px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-bold-font-family);
+  font-weight: var(--h-secondary-bold-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-bold-font-size);
+  letter-spacing: var(--h-secondary-bold-letter-spacing);
+  line-height: var(--h-secondary-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--h-secondary-bold-font-style);
+}
+
+.desk-top .arrow-forward {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.desk-top .social {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .img-3 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+
+.desk-top .aside {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.desk-top .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.desk-top .copyright {
+  display: flex;
+  min-width: 800px;
+  max-width: 1200px;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.desk-top .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  text-shadow: 1px 1px 1px #00000040;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0.06px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desk-top .links {
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 10px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .div-wrapper {
+  padding: 0px 10px;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(0, 255, 147.9), rgb(191.74, 255, 11.69) 85.03%) 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -3px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-font-family);
+  font-weight: var(--h-secondary-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-font-size);
+  letter-spacing: var(--h-secondary-letter-spacing);
+  line-height: var(--h-secondary-line-height);
+  white-space: nowrap;
+  font-style: var(--h-secondary-font-style);
+}
+
+.desk-top .roadmap-wrapper {
+  padding: 0px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desk-top .roadmap {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(0, 255, 147.9) 0%, rgb(191.74, 255, 11.69) 85.03%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: var(--h-secondary-font-family);
+  font-weight: var(--h-secondary-font-weight);
+  color: transparent;
+  font-size: var(--h-secondary-font-size);
+  letter-spacing: var(--h-secondary-letter-spacing);
+  line-height: var(--h-secondary-line-height);
+  white-space: nowrap;
+  font-style: var(--h-secondary-font-style);
+}

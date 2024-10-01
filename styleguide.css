@@ -1,0 +1,20 @@
+:root {
+  --h-primary-font-family: "Inter", Helvetica;
+  --h-primary-font-weight: 700;
+  --h-primary-font-size: 32px;
+  --h-primary-letter-spacing: 0.12800000190734864px;
+  --h-primary-line-height: normal;
+  --h-primary-font-style: normal;
+  --h-secondary-bold-font-family: "Inter", Helvetica;
+  --h-secondary-bold-font-weight: 700;
+  --h-secondary-bold-font-size: 20px;
+  --h-secondary-bold-letter-spacing: 0.0800000011920929px;
+  --h-secondary-bold-line-height: normal;
+  --h-secondary-bold-font-style: normal;
+  --h-secondary-font-family: "Inter", Helvetica;
+  --h-secondary-font-weight: 400;
+  --h-secondary-font-size: 16px;
+  --h-secondary-letter-spacing: 0.06400000095367432px;
+  --h-secondary-line-height: normal;
+  --h-secondary-font-style: normal;
+}
